@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 4</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico
+  &family=Playwrite+AR:wght@100&family=Roboto+Mono:ital,wght@0
+  ,100..700;1,100..700&family=Roboto:wght@100;400&family=
+  Sevillana&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-external-container">
+      <div class="logo-container">
+        <img src="/Static/Images/logo.jpg" alt="logo"
+             class="logo-header-class"> </div>
+      <div class="main-name-container">
+        <p>My Projects</p> </div>
+      <div class="header-menu-container">
+        <ul>
+          <li><a href="http://127.0.0.1:5000/" title="Home page"
+             tyle="text-decoration: none;">Home</a> </li> </ul>
+        </div>
+    </div>
+  </header>
+  <main class="main-body">
+    <div class="column-container">
+        <div class="column column-1">
+            <img src="{{ url_for('static', filename='Images/image.jpg') }}" alt="Profile Image" class="profile-image">
+        </div>
+        <div class="column column-2">
+            <h2>Projects</h2>
+            <ul class="github-links">
+                <li><a href="https://github.com/sergiocutrim/week-7-complete" target="_blank">Week 7 Complete</a></li>
+                <li><a href="https://github.com/sergiocutrim/Assignment4PROGRAMM" target="_blank">Assignment 4 PROGRAMM</a></li>
+                <li><a href="https://github.com/sergiocutrim/CSS_Assignment1" target="_blank">CSS Assignment 1</a></li>
+                <li><a href="https://github.com/sergiocutrim/Assignment4" target="_blank">Assignment 4</a></li>
+                <li><a href="https://github.com/sergiocutrim/Assignment4PHP" target="_blank">Assignment 4 PHP</a></li>
+            </ul>
+        </div>
+        <div class="column column-3">
+            <h2>About Me</h2>
+            <p>I am an engineer graduated in Brazil with a master's degree in Smart Technologies. I am passionate about programming and love working on new projects.</p>
+        </div>
+    </div>
+</main>
+</body>
+<footer>
+    <div class="footer-bar">
+            <div class="footer-logo">
+                <img src="Static/Images/logo.jpg" alt="Logo on the footer of page" class="footer-logo-rounded">
+            </div>
+            <div class="footer-company">
+                <p>Sergio Cutrim</p>
+                <p>Computer Programming</p>
+                <p>COMP1112: DOCUMENT AUTOMATION USING PYTHON</p>
+                <p>Georgian@Ilac - 200579843 </p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="Static/Images/facebook.png" alt="facebook logo" class="logo-size">
+                </a>
+                <a target="_blank" href="https://twitter.com">
+                    <img src="Static/Images/xlogo.png" alt="x logo" class="logo-size">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/">
+                    <img src="Static/Images/youtube.png" alt="youtube logo" class="logo-size">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <img src="Static/Images/instagram.png" alt="instagram logo" class="logo-size">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/">
+                    <img src="Static/Images/linkedin.png" alt="linkedin logo" class="logo-size">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</html>
